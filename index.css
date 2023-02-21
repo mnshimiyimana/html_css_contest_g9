@@ -1,0 +1,32 @@
+body{
+    font-family: arial;
+    margin: 0;
+    font-size: 25px;
+    background: gray;
+}
+
+
+.newsletter-wrapper{
+    background: url(https://preview.redd.it/bof9wkwei2t51.jpg?width=640&crop=smart&auto=webp&s=c3991548362d5f8fc6853905de60c605d9c62f5b);
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.newsletter-box{
+    background: #2c4052;
+    padding: 100px 50px;
+    border-radius: 50px 0 0 50px;
+    color: rgb(237, 205, 163);
+
+}
+
+.newsletter-box h1{
+    font-size: 30px;
+    margin: 0 0 20px;
+ 
+}
