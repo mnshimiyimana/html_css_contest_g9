@@ -1,1 +1,1 @@
-   HTML & CSS Hackathon
+   HTML & CSS Hackathon.
