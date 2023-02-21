@@ -30,3 +30,79 @@ body{
     margin: 0 0 20px;
  
 }
+.newsletter-box p{
+    font-size: 20px;
+    margin: 0 0 30px;
+}
+.newsletter-box input[type="text"]{
+    width: calc(100% - 100px);
+    height: 50px;
+    float: left;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 18px;
+    color:rgb(16, 62, 103);
+    padding:12px 10px;
+    border: 2px silver;
+    border-radius: 8px 0 0 8px;
+    transition: all 0.4s ease-in-out;
+    margin: 0 0 10px;
+    background: black;
+}
+.newsletter-box input[type="text"]:focus{
+    border-color:rgb(95, 62, 12);
+}
+.newsletter-box select{
+    width: calc(100% - 100px);
+    height: 50px;
+    float: left;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 18px;
+    color:rgb(53, 58, 62);
+    padding: 12px 10px;
+    border: 2px silver;
+    border-radius: 8px 0 0 8px;
+    transition: all 0.4s ease-in-out;
+    margin: 0 0 10px;
+    background: black;
+}  
+.newsletter-box input[type="text"]:focus{
+    border-color:rgb(95, 62, 12);
+}
+.newsletter-box select{
+    width: calc(100% - 100px);
+    height: 50px;
+    float: left;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 18px;
+    color:rgb(53, 58, 62);
+    padding: 12px 10px;
+    border: 2px silver;
+    border-radius: 8px 0 0 8px;
+    transition: all 0.4s ease-in-out;
+    margin: 0 0 10px;
+    background: black;
+}  
+.newsletter-box label{
+    font-size: 15px;
+    color: black;
+    margin: 0 0 10px;
+    display: block;
+}
+.newsletter-box input[type="submit"]{
+width: calc(150px);
+    height: 50px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 15px;
+    position: down;
+    font-weight: 500;
+    float: left;
+    color:rgb(41, 67, 17);
+    padding: 15px 15px;
+    border: 2px silver;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+    background:  rgb(237, 205, 163);
+    margin-top: 15px;
+}
