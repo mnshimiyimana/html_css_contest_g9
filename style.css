@@ -106,3 +106,68 @@ width: calc(150px);
     background:  rgb(237, 205, 163);
     margin-top: 15px;
 }
+.newsletter-box input[type="submit"]:hover{
+    background: rgb(200, 236, 204);
+    color:rgb(59, 35, 4);
+
+
+
+
+}
+
+
+
+
+.newsletter-wrapper{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+
+
+
+}
+
+
+
+
+.newsletter-box{
+    padding: 50px;
+    border-radius: 30px;
+    width: 50%;
+    text-align: left;
+}
+
+
+
+
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.option {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.option label {
+    color: rgb(237, 205, 163);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 767px) {
+.newsletter-box {
+    display: flex;
+    flex-direction: column;
+}
+.newsletter-box input[type="text"],
+.newsletter-box select {
+    width: 100%;
+}
+}
